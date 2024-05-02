@@ -9,7 +9,7 @@ document.getElementById('start').addEventListener('click', function() {
   timer = setInterval(function() {
     count++;
     updateCount();
-  }, 500);
+  }, 1000);
 });
 
 document.getElementById('pause').addEventListener('click', function() {
@@ -20,7 +20,7 @@ document.getElementById('resume').addEventListener('click', function() {
   timer = setInterval(function() {
     count++;
     updateCount();
-  }, 500);
+  }, 1000);
 });
 
 document.getElementById('stop').addEventListener('click', function() {
